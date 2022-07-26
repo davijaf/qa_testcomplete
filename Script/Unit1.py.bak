@@ -1,0 +1,12 @@
+﻿def Login():
+    Browsers.Item[btChrome].Navigate(Project.Variables.envURL)
+    Aliases.browser.pageShop.Wait()
+    Aliases.browser.BrowserWindow.Maximize()
+    Aliases.browser.pageShop.header.navUsd.linkLogIn.textnodeLogIn.Click()
+    Aliases.browser.pageLogin.Wait()
+    Aliases.browser.pageLogin.sectionContent.textboxUsernameoremail.Click()
+    Aliases.browser.pageLogin.sectionContent.textboxUsernameoremail.SetText("davijaf")
+    Aliases.browser.pageLogin.sectionContent.passwordboxPassword.Click()
+    Aliases.browser.pageLogin.sectionContent.passwordboxPassword.SetText(Project.Variables.Password1)
+    Aliases.browser.pageLogin.sectionContent.buttonLogIn.ClickButton()
+    

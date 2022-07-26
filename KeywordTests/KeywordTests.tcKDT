@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Login" key="{C9735D47-4B3B-4464-A504-A80AD94D9C4F}" path="Login.tcKDTest" />
+		<child name="AddtoCart" key="{C3B5A63F-96DF-43C6-8E14-5F5A2441FE41}" path="AddtoCart.tcKDTest" />
+		<child name="Checkout" key="{5EC059EA-13C2-4834-83A1-CF0A339AB08D}" path="Checkout.tcKDTest" />
+	</children>
+</Root>
